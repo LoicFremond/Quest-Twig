@@ -1,14 +1,16 @@
 {
-    "name": "wilder/quete_twig",
-    "description": "quete twig",
-    "type": "twig/twig",
+    "name": "loic/quete_composer",
+    "description": "Quete WCS composer",
+    "autoload": {
+        "psr-4": {"App\\": "src/"}
+
+    },
     "authors": [
         {
-            "name": "Toua VA",
-            "email": "toua.va45@gmail.com"
+            "name": "Loic Fremond",
+            "email": "loic.fremond@hotmail.fr"
         }
     ],
-    "require": {
-	"twig/twig": "^2.12"
-	}
+    "require": {}
+    
 }
