@@ -1,0 +1,18 @@
+{% extends "products.html.twig" %}
+
+{% block title %}Quête Twig{% endblock %} 
+
+{% block content %}
+    <h1>Product</h1>
+    <div class="row">
+        {% for product in products %}
+            <div class="card border-primary mb-2" style="max-width: 20rem; margin: 2%;" >
+                <div class="card-header">{{ product|upper}}</div> 
+                <div class="card-body text-primary">
+                    <h5 class="card-title">Description du produit : {{ product }}</h5>
+                    <p class="card-text">Lorem ipsum</p>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+{% endblock %}

@@ -1,9 +1,5 @@
-# quest-twig
+# wcs-quete-twig
 
-Hello Wilder !
+Challenge réalisé dans le cadre de la formation à la Wild Code School.
 
-If you are here, it's certainly because you start the quests about Twig !
-
-So, use me as a template, and follow instructions on Odyssey !
-
-Enjoy your journey !
+Manipulation de Twig

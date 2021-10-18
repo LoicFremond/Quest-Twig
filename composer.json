@@ -1,14 +1,14 @@
 {
-    "name": "wcs/quest-twig",
-    "description": "A quest to let you discover the power of the mighty twig template engine !",
-    "type": "quest",
-    "require": {
-        "twig/twig": "^3.3"
-    },
+    "name": "wilder/quete_twig",
+    "description": "quete twig",
+    "type": "twig/twig",
     "authors": [
         {
-            "name": "Aurélien",
-            "email": "aurelien.barbier@wildcodeschool.com"
+            "name": "Toua VA",
+            "email": "toua.va45@gmail.com"
         }
-    ]
+    ],
+    "require": {
+	"twig/twig": "^2.12"
+	}
 }
